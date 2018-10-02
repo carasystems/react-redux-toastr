@@ -118,13 +118,15 @@
     "style-loader": "^0.16.1",
     "url-loader": "^0.5.7",
     "webpack": "^2.3.3",
-    "webpack-dev-server": "^2.4.2"
+    "webpack-dev-server": "^2.4.2",
+    "immutable": "3.8.2"
   },
   "peerDependencies": {
     "react": "^0.14 || ^15.0.1 || ^16.0.0",
     "react-redux": "^4.0.1 || ^5.0.1",
     "redux": "^3.0.5 || ^4.0.0",
-    "prop-types": "^15.5.7"
+    "prop-types": "^15.5.7",
+    "immutable": "3.8.2"
   },
   "dependencies": {
     "classnames": "^2.2.3",
