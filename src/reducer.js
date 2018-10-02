@@ -46,7 +46,7 @@ export default function toastReducer(state = initialState, action) {
           ...state.get('toastrs').toJS(),
         ];
       }
-      toastrsCache = newState.toastrs;
+      toastrsCache = toastrs;
 
       return state.merge({
         toastrs,
